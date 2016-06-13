@@ -21,6 +21,7 @@
 		B572E35F1D0F5B7800EE9853 /* CharacterActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B572E35E1D0F5B7800EE9853 /* CharacterActions.sks */; };
 		B572E3611D0F5E5E00EE9853 /* Penguin.sks in Resources */ = {isa = PBXBuildFile; fileRef = B572E3601D0F5E5E00EE9853 /* Penguin.sks */; };
 		B572E3631D0F5F2A00EE9853 /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */; };
+		B57395B21D0F696200D99D68 /* Seal.sks in Resources */ = {isa = PBXBuildFile; fileRef = B57395B11D0F696200D99D68 /* Seal.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B572E35E1D0F5B7800EE9853 /* CharacterActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = CharacterActions.sks; path = ../CharacterActions.sks; sourceTree = "<group>"; };
 		B572E3601D0F5E5E00EE9853 /* Penguin.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Penguin.sks; sourceTree = "<group>"; };
 		B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
+		B57395B11D0F696200D99D68 /* Seal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Seal.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				B572E35E1D0F5B7800EE9853 /* CharacterActions.sks */,
-				B572E35C1D0F5AF500EE9853 /* Bear.sks */,
-				B572E3601D0F5E5E00EE9853 /* Penguin.sks */,
+				B57395B31D0F6A0C00D99D68 /* Characters */,
 				B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */,
 				B572E3201D0F48FA00EE9853 /* AppDelegate.swift */,
 				B572E3221D0F48FA00EE9853 /* GameScene.sks */,
@@ -144,6 +145,16 @@
 				B572E3461D0F48FA00EE9853 /* Info.plist */,
 			);
 			path = PeevedPenguinsUITests;
+			sourceTree = "<group>";
+		};
+		B57395B31D0F6A0C00D99D68 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				B572E35C1D0F5AF500EE9853 /* Bear.sks */,
+				B572E3601D0F5E5E00EE9853 /* Penguin.sks */,
+				B57395B11D0F696200D99D68 /* Seal.sks */,
+			);
+			name = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57395B21D0F696200D99D68 /* Seal.sks in Resources */,
 				B572E3611D0F5E5E00EE9853 /* Penguin.sks in Resources */,
 				B572E3231D0F48FA00EE9853 /* GameScene.sks in Resources */,
 				B572E32F1D0F48FA00EE9853 /* LaunchScreen.storyboard in Resources */,
