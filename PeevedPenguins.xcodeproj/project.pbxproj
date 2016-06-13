@@ -16,6 +16,8 @@
 		B572E32F1D0F48FA00EE9853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B572E32D1D0F48FA00EE9853 /* LaunchScreen.storyboard */; };
 		B572E33A1D0F48FA00EE9853 /* PeevedPenguinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3391D0F48FA00EE9853 /* PeevedPenguinsTests.swift */; };
 		B572E3451D0F48FA00EE9853 /* PeevedPenguinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3441D0F48FA00EE9853 /* PeevedPenguinsUITests.swift */; };
+		B572E3531D0F4BD000EE9853 /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B572E3521D0F4BD000EE9853 /* assets.atlas */; };
+		B572E3551D0F4C3000EE9853 /* Bear.sks in Resources */ = {isa = PBXBuildFile; fileRef = B572E3541D0F4C3000EE9853 /* Bear.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B572E3401D0F48FA00EE9853 /* PeevedPenguinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeevedPenguinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572E3441D0F48FA00EE9853 /* PeevedPenguinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeevedPenguinsUITests.swift; sourceTree = "<group>"; };
 		B572E3461D0F48FA00EE9853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B572E3521D0F4BD000EE9853 /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		B572E3541D0F4C3000EE9853 /* Bear.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Bear.sks; path = ../Bear.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +105,14 @@
 		B572E31F1D0F48FA00EE9853 /* PeevedPenguins */ = {
 			isa = PBXGroup;
 			children = (
+				B572E3541D0F4C3000EE9853 /* Bear.sks */,
 				B572E3201D0F48FA00EE9853 /* AppDelegate.swift */,
 				B572E3221D0F48FA00EE9853 /* GameScene.sks */,
 				B572E3241D0F48FA00EE9853 /* GameScene.swift */,
 				B572E3261D0F48FA00EE9853 /* GameViewController.swift */,
 				B572E3281D0F48FA00EE9853 /* Main.storyboard */,
 				B572E32B1D0F48FA00EE9853 /* Assets.xcassets */,
+				B572E3521D0F4BD000EE9853 /* assets.atlas */,
 				B572E32D1D0F48FA00EE9853 /* LaunchScreen.storyboard */,
 				B572E3301D0F48FA00EE9853 /* Info.plist */,
 			);
@@ -238,6 +244,8 @@
 				B572E3231D0F48FA00EE9853 /* GameScene.sks in Resources */,
 				B572E32F1D0F48FA00EE9853 /* LaunchScreen.storyboard in Resources */,
 				B572E32C1D0F48FA00EE9853 /* Assets.xcassets in Resources */,
+				B572E3551D0F4C3000EE9853 /* Bear.sks in Resources */,
+				B572E3531D0F4BD000EE9853 /* assets.atlas in Resources */,
 				B572E32A1D0F48FA00EE9853 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
