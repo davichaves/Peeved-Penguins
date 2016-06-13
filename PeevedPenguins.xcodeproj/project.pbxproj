@@ -22,6 +22,9 @@
 		B572E3611D0F5E5E00EE9853 /* Penguin.sks in Resources */ = {isa = PBXBuildFile; fileRef = B572E3601D0F5E5E00EE9853 /* Penguin.sks */; };
 		B572E3631D0F5F2A00EE9853 /* MSReferenceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */; };
 		B57395B21D0F696200D99D68 /* Seal.sks in Resources */ = {isa = PBXBuildFile; fileRef = B57395B11D0F696200D99D68 /* Seal.sks */; };
+		B57395B51D0F6B2C00D99D68 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = B57395B41D0F6B2C00D99D68 /* MainMenu.sks */; };
+		B57395B71D0F6E9000D99D68 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57395B61D0F6E9000D99D68 /* MSButtonNode.swift */; };
+		B57395B91D0F715900D99D68 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57395B81D0F715900D99D68 /* MainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		B572E3601D0F5E5E00EE9853 /* Penguin.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Penguin.sks; sourceTree = "<group>"; };
 		B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReferenceNode.swift; sourceTree = "<group>"; };
 		B57395B11D0F696200D99D68 /* Seal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Seal.sks; sourceTree = "<group>"; };
+		B57395B41D0F6B2C00D99D68 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		B57395B61D0F6E9000D99D68 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		B57395B81D0F715900D99D68 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +120,15 @@
 			isa = PBXGroup;
 			children = (
 				B572E35E1D0F5B7800EE9853 /* CharacterActions.sks */,
+				B57395B41D0F6B2C00D99D68 /* MainMenu.sks */,
+				B57395B61D0F6E9000D99D68 /* MSButtonNode.swift */,
 				B57395B31D0F6A0C00D99D68 /* Characters */,
 				B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */,
 				B572E3201D0F48FA00EE9853 /* AppDelegate.swift */,
 				B572E3221D0F48FA00EE9853 /* GameScene.sks */,
 				B572E3241D0F48FA00EE9853 /* GameScene.swift */,
 				B572E3261D0F48FA00EE9853 /* GameViewController.swift */,
+				B57395B81D0F715900D99D68 /* MainMenu.swift */,
 				B572E3281D0F48FA00EE9853 /* Main.storyboard */,
 				B572E32B1D0F48FA00EE9853 /* Assets.xcassets */,
 				B572E3521D0F4BD000EE9853 /* assets.atlas */,
@@ -264,6 +273,7 @@
 				B57395B21D0F696200D99D68 /* Seal.sks in Resources */,
 				B572E3611D0F5E5E00EE9853 /* Penguin.sks in Resources */,
 				B572E3231D0F48FA00EE9853 /* GameScene.sks in Resources */,
+				B57395B51D0F6B2C00D99D68 /* MainMenu.sks in Resources */,
 				B572E32F1D0F48FA00EE9853 /* LaunchScreen.storyboard in Resources */,
 				B572E32C1D0F48FA00EE9853 /* Assets.xcassets in Resources */,
 				B572E35D1D0F5AF500EE9853 /* Bear.sks in Resources */,
@@ -295,9 +305,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B572E3251D0F48FA00EE9853 /* GameScene.swift in Sources */,
+				B57395B91D0F715900D99D68 /* MainMenu.swift in Sources */,
 				B572E3631D0F5F2A00EE9853 /* MSReferenceNode.swift in Sources */,
 				B572E3271D0F48FA00EE9853 /* GameViewController.swift in Sources */,
 				B572E3211D0F48FA00EE9853 /* AppDelegate.swift in Sources */,
+				B57395B71D0F6E9000D99D68 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
