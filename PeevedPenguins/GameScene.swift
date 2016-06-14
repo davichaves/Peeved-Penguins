@@ -16,7 +16,7 @@ class GameScene: SKScene {
     
     override func didMoveToView(view: SKView) {
         /* Set reference to catapultArm node */
-        //catapultArm = childNodeWithName("catapultArm") as! SKSpriteNode
+        catapultArm = childNodeWithName("catapultArm") as! SKSpriteNode
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
