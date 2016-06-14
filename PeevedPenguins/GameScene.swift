@@ -27,6 +27,13 @@ class GameScene: SKScene {
         
         /* Position penguin in the catapult bucket area */
         penguin.avatar.position = CGPoint(x: catapultArm.position.x+32, y: catapultArm.position.y+50)
+        
+        /* Impulse vector */
+        let launchDirection = CGVector(dx: 4, dy: 0)
+        let force = launchDirection
+        
+        /* Apply impulse to penguin */
+        penguin.avatar.physicsBody?.applyImpulse(force)
     }
     
     override func update(currentTime: CFTimeInterval) {
