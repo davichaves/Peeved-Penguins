@@ -6,20 +6,31 @@
 //  Copyright (c) 2016 davichaves. All rights reserved.
 //
 
+import Foundation
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    /* Game object connections */
+    var catapultArm: SKSpriteNode!
+    
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        
+        /* Set reference to catapultArm node */
+        //catapultArm = childNodeWithName("catapultArm") as! SKSpriteNode
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-       /* Called when a touch begins */
+        /* Add a new penguin to the scene */
+        let resourcePath = NSBundle.mainBundle().pathForResource("Penguin", ofType: "sks")
+        let penguin = MSReferenceNode(URL: NSURL (fileURLWithPath: resourcePath!))
+        addChild(penguin)
         
+        /* Position penguin in the catapult bucket area */
+        penguin.avatar.position = CGPoint(x: catapultArm.position.x+32, y: catapultArm.position.y+50)
     }
-   
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }
+    
 }
