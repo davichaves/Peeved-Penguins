@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B512EEAC1D10D176001D94DA /* SealExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B512EEAA1D10D176001D94DA /* SealExplosion.sks */; };
+		B512EEAD1D10D176001D94DA /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B512EEAB1D10D176001D94DA /* spark.png */; };
+		B512EEAF1D10D2D7001D94DA /* sfx_seal.caf in Resources */ = {isa = PBXBuildFile; fileRef = B512EEAE1D10D2D7001D94DA /* sfx_seal.caf */; };
 		B572E3211D0F48FA00EE9853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3201D0F48FA00EE9853 /* AppDelegate.swift */; };
 		B572E3251D0F48FA00EE9853 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3241D0F48FA00EE9853 /* GameScene.swift */; };
 		B572E3271D0F48FA00EE9853 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B572E3261D0F48FA00EE9853 /* GameViewController.swift */; };
@@ -58,6 +61,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B512EEAA1D10D176001D94DA /* SealExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SealExplosion.sks; sourceTree = "<group>"; };
+		B512EEAB1D10D176001D94DA /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B512EEAE1D10D2D7001D94DA /* sfx_seal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_seal.caf; sourceTree = "<group>"; };
 		B572E31D1D0F48FA00EE9853 /* PeevedPenguins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeevedPenguins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572E3201D0F48FA00EE9853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B572E3241D0F48FA00EE9853 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -122,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B512EEB01D10D2DC001D94DA /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				B512EEAE1D10D2D7001D94DA /* sfx_seal.caf */,
+			);
+			name = SFX;
+			sourceTree = "<group>";
+		};
 		B572E3141D0F48FA00EE9853 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				B5F992B51D0FE058002A743D /* Levels */,
+				B512EEB01D10D2DC001D94DA /* SFX */,
 				B572E35E1D0F5B7800EE9853 /* CharacterActions.sks */,
 				B57395B41D0F6B2C00D99D68 /* MainMenu.sks */,
 				B57395B61D0F6E9000D99D68 /* MSButtonNode.swift */,
@@ -153,6 +168,8 @@
 				B572E3621D0F5F2A00EE9853 /* MSReferenceNode.swift */,
 				B572E3201D0F48FA00EE9853 /* AppDelegate.swift */,
 				B572E3241D0F48FA00EE9853 /* GameScene.swift */,
+				B512EEAA1D10D176001D94DA /* SealExplosion.sks */,
+				B512EEAB1D10D176001D94DA /* spark.png */,
 				B5F992B31D0FB1CD002A743D /* GameScene.sks */,
 				B572E3261D0F48FA00EE9853 /* GameViewController.swift */,
 				B57395B81D0F715900D99D68 /* MainMenu.swift */,
@@ -327,11 +344,14 @@
 			files = (
 				B57395B21D0F696200D99D68 /* Seal.sks in Resources */,
 				B572E3611D0F5E5E00EE9853 /* Penguin.sks in Resources */,
+				B512EEAC1D10D176001D94DA /* SealExplosion.sks in Resources */,
 				B5F992B71D0FE071002A743D /* Level1.sks in Resources */,
 				B57395B51D0F6B2C00D99D68 /* MainMenu.sks in Resources */,
+				B512EEAD1D10D176001D94DA /* spark.png in Resources */,
 				B5F992B41D0FB1CD002A743D /* GameScene.sks in Resources */,
 				B572E32F1D0F48FA00EE9853 /* LaunchScreen.storyboard in Resources */,
 				B572E32C1D0F48FA00EE9853 /* Assets.xcassets in Resources */,
+				B512EEAF1D10D2D7001D94DA /* sfx_seal.caf in Resources */,
 				B572E35D1D0F5AF500EE9853 /* Bear.sks in Resources */,
 				B572E3531D0F4BD000EE9853 /* assets.atlas in Resources */,
 				B572E32A1D0F48FA00EE9853 /* Main.storyboard in Resources */,
